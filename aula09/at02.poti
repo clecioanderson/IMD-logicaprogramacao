@@ -1,0 +1,18 @@
+# Caça ao Maior
+#
+# Algumas vezes, torna-se necessário encontrar o maior número conhecido entre um conjunto de números. 
+# Sendo assim, utilizando o enquanto, você deverá construir um programa que receba uma quantidade indefinida 
+# de números, porém, ao receber o número 0, ele encerrará e imprime o maior número entre todos os recebidos pelo programa.
+#
+
+var i := 1
+var j := 0
+
+enquanto i <> 0  faça
+        i:=leia_inteiro
+        se j < i  então
+                j := i
+                i := 1
+         fim
+fim
+imprima "{j}"
